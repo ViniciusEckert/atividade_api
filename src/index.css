@@ -10,15 +10,16 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url('./back.jpg');
+    background-image: url('./backmobile.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-@media (width <= 768px){
+/* agora serve para o desktop */
+@media (width >= 768px){
  body{
-    background-image: url('./backmobile.jpg');
+    background-image: url('./back.jpg');
 }   
 }
